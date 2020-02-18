@@ -80,3 +80,9 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+
+      - file: "site/content/who-we-are/_index.md"
+        label: "Who we are"
+        name: "who-we-are"
+        fields:
+          - {label: Title, name: title, widget: string}
